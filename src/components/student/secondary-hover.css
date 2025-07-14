@@ -1,0 +1,16 @@
+.secondary-hover-border:hover {
+  border-color: var(--secondary-color-border) !important;
+}
+
+.secondary-hover-border:hover .secondary-hover-icon {
+  color: var(--secondary-color-border) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  .secondary-hover-border:hover {
+    border-color: var(--secondary-color-border-dark) !important;
+  }
+  .secondary-hover-border:hover .secondary-hover-icon {
+    color: var(--secondary-color-border-dark) !important;
+  }
+} 
